@@ -22,24 +22,26 @@
   <body>
     <!--Верхняя линия-->
     <header class="header">
-      <div class="container flex-container">
-        <a href="" class="header-logo link"
-          ><span class="header-list-logo-part">Web</span>Studio</a
+      <div class="container container--flex-container">
+        <a href="" class="logo link"
+          ><span class="logo logo--part">Web</span>Studio</a
         >
-        <nav class="nav">
+        <nav class="navigation-block">
           <ul class="nav-list">
-            <li class="nav-list-item">
-              <a href="./index.html" class="nav-list-link current link"
+            <li class="nav-list_item">
+              <a
+                href="./index.html"
+                class="nav-list__link nav-list__link--current"
                 >Студия</a
               >
             </li>
-            <li class="nav-list-item">
-              <a href="./portfolio.html" class="nav-list-link link"
+            <li class="nav-list__item">
+              <a href="./portfolio.html" class="nav-list__link link"
                 >Портфолио</a
               >
             </li>
-            <li class="nav-list-item">
-              <a href="" class="nav-list-link link">Контакты</a>
+            <li class="nav-list__item">
+              <a href="" class="nav-list__link link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -123,11 +125,12 @@
                 </label>
 
                 <label class="form-sign">
-                  <input type="checkbox" name="checkbox" class="checkbox" />
-                  <span class="form-sign-icon"></span>
+                  <input type="checkbox" class="checkbox" />
+                  <span class="form-sign-icon" name="checkbox"></span>
+
                   <label for="checkbox" class="form-sign-text"
                     >Соглашаюсь с рассылкой и принимаю
-                    <a href="" class="cerrent">Условия договора</a>
+                    <a href="">Условия договора</a>
                   </label>
                 </label>
 
@@ -135,77 +138,6 @@
                   Отправить
                 </button>
               </form>
-
-              <!-- OLD SCHOOL -->
-              <!-- <form class="js-speaker-form">
-                <div class="form-field">
-                  <p class="form-field-title">
-                    Оставьте свои данные, мы вам перезвоним
-                  </p>
-                </div>
-                <div class="form-field">
-                  <label for="name" class="form-label">Имя</label>
-                  <input
-                    class="form-field-input"
-                    type="text"
-                    name="name"
-                    id="name"
-                  />
-
-                  <svg>
-                    <use href="./Images/sprite.svg#person-modal"></use>
-                  </svg>
-                </div>
-                <div class="form-field">
-                  <label for="tel">Телефон</label>
-                  <input
-                    class="form-field-input"
-                    type="tel"
-                    name="tel"
-                    id="tel"
-                  />
-
-                  <svg>
-                    <use href="./Images/sprite.svg#phone-modal"></use>
-                  </svg>
-                </div>
-                <div class="form-field">
-                  <label for="email">Почта</label>
-                  <input
-                    class="form-field-input"
-                    type="email"
-                    name="email"
-                    id="email"
-                  />
-
-                  <svg>
-                    <use href="./Images/sprite.svg#mail-modal"></use>
-                  </svg>
-                </div>
-                <div class="form-field comment">
-                  <label for="comment">Комментрий</label>
-                  <textarea
-                    class="form-field-textarea"
-                    name="comment"
-                    id="comment"
-                    placeholder="Введите текст"
-                  ></textarea>
-                </div>
-
-                <div class="sign">
-                  <input type="checkbox" name="checkbox" id="checkbox" />
-                  <label for="checkbox"
-                    >Соглашаюсь с рассылкой и принимаю
-                    <a href="" class="cerrent">Условия договора</a>
-                  </label>
-                </div>
-
-                <div class="form-field">
-                  <button type="button" class="form-field-button">
-                    Отправить
-                  </button>
-                </div>
-              </form> -->
             </div>
           </div>
         </div>
