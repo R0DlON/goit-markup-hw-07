@@ -37,6 +37,10 @@
   color: var(--primary-text-color);
 
   transition: color $patternTime $patternCubicBuzier;
+  &:hover,
+  &:focus {
+    color: $primery-accent-color;
+  }
 }
 
 .logo--part {
@@ -44,18 +48,14 @@
   color: $primery-accent-color;
 }
 
-.logo:focus,
-.logo:hover {
-  color: $primery-accent-color;
-}
-
 .nav-list {
   display: flex;
 }
 
-.nav-list__item:not(:last-child),
-.auth-list__item:not(:last-child) {
-  margin-right: 50px;
+.nav-list__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .nav-list__link {
@@ -107,6 +107,9 @@
 .auth-list__item {
   display: flex;
   align-items: center;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .auth-list__link {
