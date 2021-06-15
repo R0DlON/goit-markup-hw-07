@@ -1,0 +1,146 @@
+//  .features-section {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+//   }
+
+//   .features-list {
+//     display: flex;
+//   }
+
+//   .features-list-item {
+//     margin-right: 30px;
+
+//     width: 270px;
+//   }
+
+//   .features-list-item > .icon {
+//     margin-bottom: 30px;
+
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     padding-top: 25px;
+//     padding-bottom: 25px;
+
+//     background-color: var(--third-background-color);
+//   }
+
+//   .features1,
+//   .features2 {
+//     width: 65px;
+//     height: 70px;
+
+//     fill: var(--second-icon-color);
+//     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//     cursor: pointer;
+//   }
+
+//   .features3,
+//   .features4 {
+//     width: 70px;
+//     height: 70px;
+
+//     fill: var(--second-icon-color);
+//     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//     cursor: pointer;
+//   }
+
+//   .features1:hover,
+//   .features2:hover,
+//   .features3:hover,
+//   .features4:hover {
+//     fill: var(--accent-color);
+//   }
+
+//   .features-list-item:last-child {
+//     margin-right: 0;
+//   }
+
+//   .features-list-title {
+//     margin-bottom: 10px;
+
+//     font-size: 14px;
+//     font-weight: bold;
+//     text-transform: uppercase;
+//   }
+
+//   .features-list-text {
+//     line-height: 1.7;
+
+//     color: var(--secondary-text-color);
+//   }
+
+.section {
+  padding-top: $patternSectionPadding;
+  padding-bottom: $patternSectionPadding;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-list__item {
+  margin-right: 30px;
+
+  width: 270px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.icon-container {
+  .features-list__item > & {
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    background-color: #f5f4fa;
+  }
+}
+
+.icon-features1,
+.icon-features2 {
+  width: 65px;
+  height: 70px;
+
+  fill: var(--second-icon-color);
+  transition: fill $patternTime $patternCubicBuzier;
+  cursor: pointer;
+
+  &:hover {
+    fill: $accent-color;
+  }
+}
+
+.icon-features3,
+.icon-features4 {
+  width: 70px;
+  height: 70px;
+
+  fill: var(--second-icon-color);
+  transition: fill $patternTime $patternCubicBuzier;
+  cursor: pointer;
+
+  &:hover {
+    fill: $accent-color;
+  }
+}
+
+.features-list__title {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.features-list__text {
+  line-height: 1.7;
+
+  color: #757575;
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.wwd-title {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.wwd-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wwd-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.wwd-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.wwd-list-item {
+  position: relative;
+}
+
+.text-s {
+  position: absolute;
+  /* Или через падинги left+right:auto */
+  width: 100%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+/*# sourceMappingURL=whatWeDo.css.map */
