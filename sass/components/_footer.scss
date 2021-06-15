@@ -49,7 +49,7 @@
 // .icon-list-title {
 //   margin-bottom: 20px;
 
-//   font-size: 14px;
+//
 //   color: var(--white-text-color);
 // }
 
@@ -73,7 +73,7 @@
 
 // .footer-i-icon-list-link:hover,
 // .footer-i-icon-list-link:focus {
-//   background-color: var(--accent-color);
+//   background-color: var(--primery-accent-color);
 // }
 
 // .footer-i-icon-list-link > svg {
@@ -85,16 +85,16 @@
 
 // .address-list-link {
 //   font-style: normal;
-//   font-size: 14px;
+//
 //   line-height: 1.7;
-//   letter-spacing: 0.03em;
+//
 //   color: var(--footer-text-color);
 
 //   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 // }
 // .address-list-link:focus,
 // .address-list-link:hover {
-//   color: var(--accent-color);
+//   color: var(--primery-accent-color);
 // }
 
 // .footer-list-part-logo.right {
@@ -102,7 +102,7 @@
 // }
 // .footer-list-part-logo.right:focus,
 // .footer-list-part-logo.right:hover {
-//   color: var(--accent-color);
+//   color: var(--primery-accent-color);
 // }
 
 // .mailing-container {
@@ -145,7 +145,7 @@
 // }
 
 // .mailing-list-input:focus {
-//   border-color: var(--accent-color);
+//   border-color: var(--primery-accent-color);
 // }
 
 // .mailing-list-item button {
@@ -162,7 +162,7 @@
 //   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 //   color: var(--white-text-color);
-//   background: var(--accent-color);
+//   background: var(--primery-accent-color);
 //   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 //   border-radius: 4px;
 //   cursor: pointer;
@@ -223,16 +223,14 @@
 
 .address-list__link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 
   transition: color $patternTime $patternCubicBuzier;
 
   &:focus,
   &:hover {
-    color: $accent-color;
+    color: $primery-accent-color;
   }
 }
 
@@ -244,7 +242,6 @@
 .icon-title {
   margin-bottom: 20px;
 
-  font-size: 14px;
   color: #ffffff;
 }
 
@@ -302,7 +299,7 @@ svg {
   background: #2f303a;
   transition: border-color $patternTime $patternCubicBuzier;
   &:focus {
-    border-color: $accent-color;
+    border-color: $primery-accent-color;
   }
 }
 
@@ -320,7 +317,7 @@ svg {
   transition: box-shadow $patternTime $patternCubicBuzier;
 
   color: #ffffff;
-  background: $accent-color;
+  background: $primery-accent-color;
   box-shadow: $box-shadow-button;
   border-radius: 4px;
   cursor: pointer;

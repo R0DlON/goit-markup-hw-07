@@ -50,7 +50,7 @@
   transition: border-color $patternTime $patternCubicBuzier;
   &:hover,
   &:focus {
-    border-color: $accent-color;
+    border-color: $primery-accent-color;
   }
 }
 
@@ -62,7 +62,7 @@
   transition: fill 250ms $patternCubicBuzier;
   .button-icon--close:hover &,
   .button-icon--close:focus & {
-    fill: $accent-color;
+    fill: $primery-accent-color;
   }
 }
 
@@ -85,7 +85,6 @@
 .form-field__text {
   padding: 4px;
   font-size: 12px;
-  line-height: 1.2;
   letter-spacing: 0.01em;
 
   color: #757575;
@@ -107,7 +106,7 @@
   border-radius: 4px;
   transition: border-color $patternTime $patternCubicBuzier;
   .form-field:focus-within & {
-    border-color: $accent-color;
+    border-color: $primery-accent-color;
   }
 }
 
@@ -124,7 +123,7 @@ svg {
   }
 
   .form-field:focus-within & {
-    fill: $accent-color;
+    fill: $primery-accent-color;
   }
 }
 
@@ -137,7 +136,7 @@ svg {
   outline: none;
   transition: border-color $patternTime $patternCubicBuzier;
   .form-field:focus-within & {
-    border-color: $accent-color;
+    border-color: $primery-accent-color;
   }
 }
 
@@ -175,8 +174,8 @@ svg {
 
   .checkbox:checked + & {
     background-image: url(../Images/checkbox.svg);
-    background-color: $accent-color;
-    border-color: $accent-color;
+    background-color: $primery-accent-color;
+    border-color: $primery-accent-color;
   }
 }
 
@@ -199,6 +198,6 @@ svg {
   text-align: center;
   cursor: pointer;
   color: #ffffff;
-  background: $accent-color;
+  background: $primery-accent-color;
   box-shadow: $box-shadow;
 }

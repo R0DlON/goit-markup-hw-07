@@ -62,12 +62,12 @@
 //   }
 //   .logo--part {
 //     margin: 0px;
-//     color: var(--accent-color);
+//     color: var(--primery-accent-color);
 //   }
 
 //   .logo:focus,
 //   .logo:hover {
-//     color: var(--accent-color);
+//     color: var(--primery-accent-color);
 //   }
 
 .header {
@@ -91,12 +91,12 @@
 
 .logo--part {
   margin: 0px;
-  color: $accent-color;
+  color: $primery-accent-color;
 }
 
 .logo:focus,
 .logo:hover {
-  color: $accent-color;
+  color: $primery-accent-color;
 }
 
 // /* Navigation-block */
@@ -138,12 +138,12 @@
 // }
 // .nav-list-link:focus,
 // .nav-list-link:hover {
-//   color: var(--accent-color);
+//   color: var(--primery-accent-color);
 // }
 
 // .current {
 //   font-weight: 500;
-//   color: var(--accent-color);
+//   color: var(--primery-accent-color);
 // }
 
 .nav-list {
@@ -159,7 +159,7 @@
   &.nav-list__link--current {
     position: relative;
     font-weight: 500;
-    color: $accent-color;
+    color: $primery-accent-color;
   }
 }
 
@@ -191,7 +191,7 @@
   transition: color $patternTime $patternCubicBuzier;
   &:focus,
   &:hover {
-    color: $accent-color;
+    color: $primery-accent-color;
   }
 }
 
@@ -237,12 +237,12 @@
 
 // .auth-list-link:focus,
 // .auth-list-link:hover {
-//   color: var(--accent-color);
+//   color: var(--primery-accent-color);
 // }
 
 // .auth-list-link:hover .auth-list-icon,
 // .auth-list-link:focus .auth-list-icon {
-//   fill: var(--accent-color);
+//   fill: var(--primery-accent-color);
 // }
 
 .auth-list {
@@ -268,7 +268,7 @@
   transition: color $patternTime $patternCubicBuzier;
   &:focus,
   &:hover {
-    color: $accent-color;
+    color: $primery-accent-color;
   }
 }
 
@@ -295,6 +295,6 @@
   transition: fill $patternTime $patternCubicBuzier;
   .auth-list__link:hover &,
   .auth-list__link:focus & {
-    fill: $accent-color;
+    fill: $primery-accent-color;
   }
 }

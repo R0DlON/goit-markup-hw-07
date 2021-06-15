@@ -117,6 +117,7 @@
 }
 
 .project-list__item {
+  width: 370px;
   margin: 15px;
 
   background: #ffffff;
@@ -157,7 +158,8 @@
 }
 
 .project-thumb:before {
-  .project-list__link:hover & {
+  .project-list__link:hover &,
+  .project-list__link:focus & {
     transform: translateY(0%);
 
     opacity: 1;

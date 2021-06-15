@@ -54,7 +54,7 @@
 // .team-box-list-link:focus {
 //   border-radius: 50%;
 
-//   background-color: var(--accent-color);
+//   background-color: var(--primery-accent-color);
 // }
 
 // .team-box-list-link:hover svg,
@@ -147,7 +147,7 @@
   &:focus {
     border-radius: 50%;
 
-    background-color: $accent-color;
+    background-color: $primery-accent-color;
   }
 }
 

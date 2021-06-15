@@ -28,11 +28,11 @@
 
 // .our-clients-link:hover,
 // .our-clients-link:focus {
-//   border-color: var(--accent-color);
+//   border-color: var(--primery-accent-color);
 // }
 // .our-clients-link:hover svg,
 // .our-clients-link:focus svg {
-//   fill: var(--accent-color);
+//   fill: var(--primery-accent-color);
 // }
 // .our-clients-item:last-child {
 //   margin-right: 0;
@@ -62,7 +62,7 @@
 
   &:hover,
   &:focus {
-    border-color: $accent-color;
+    border-color: $primery-accent-color;
   }
 }
 
@@ -76,6 +76,6 @@ svg {
   }
   .сlients-list__link:hover &,
   .сlients-list__link:focus & {
-    fill: $accent-color;
+    fill: $primery-accent-color;
   }
 }
