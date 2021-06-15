@@ -1,24 +1,4 @@
-// .container {
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding-left: 15px;
-//     padding-right: 15px;
-
-//     width: 1200px;
-//   }
-
-//   .container--flex-container {
-//     display: flex;
-
-//     align-items: center;
-//     justify-content: center;
-//   }
-
-//   .section {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-//   }
-
+/* Шапка */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -39,36 +19,6 @@
   padding-top: $patternSectionPadding;
   padding-bottom: $patternSectionPadding;
 }
-
-//   /* Logo */
-
-//   .header {
-//     display: flex;
-//     height: 80px;
-
-//     border-bottom: 1px solid #ececec;
-//   }
-
-//   .logo {
-//     margin-right: 90px;
-
-//     text-decoration: none;
-//     font-family: Raleway;
-//     font-weight: bold;
-//     font-size: 26px;
-//     color: var(--primary-text-color);
-
-//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-//   }
-//   .logo--part {
-//     margin: 0px;
-//     color: var(--primery-accent-color);
-//   }
-
-//   .logo:focus,
-//   .logo:hover {
-//     color: var(--primery-accent-color);
-//   }
 
 .header {
   display: flex;
@@ -98,53 +48,6 @@
 .logo:hover {
   color: $primery-accent-color;
 }
-
-// /* Navigation-block */
-// .nav-list {
-//   display: flex;
-// }
-// .nav-list__item:not(:last-child),
-// .auth-list__item:not(:last-child) {
-//   margin-right: 50px;
-// }
-
-// .nav-list__link--current {
-//   position: relative;
-// }
-
-// .nav-list__link--current::after {
-//   content: "";
-//   position: absolute;
-//   top: 115%;
-//   right: 0%;
-
-//   width: 100%;
-//   height: 4px;
-
-//   background-color: #2196f3;
-//   border-radius: 2px;
-
-//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
-// .nav-list-link {
-//   padding-top: 20px;
-//   padding-bottom: 20px;
-
-//   font-weight: 500;
-//   color: var(--primary-text-color);
-
-//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-// .nav-list-link:focus,
-// .nav-list-link:hover {
-//   color: var(--primery-accent-color);
-// }
-
-// .current {
-//   font-weight: 500;
-//   color: var(--primery-accent-color);
-// }
 
 .nav-list {
   display: flex;
@@ -194,56 +97,6 @@
     color: $primery-accent-color;
   }
 }
-
-// .auth-list {
-//   margin-left: auto;
-
-//   display: flex;
-// }
-
-// .auth-list-item {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .mail {
-//   margin-right: 10px;
-
-//   width: 16px;
-//   height: 12px;
-
-//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
-// .phone {
-//   margin-right: 10px;
-
-//   width: 10px;
-//   height: 16px;
-//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
-// .auth-list-link {
-//   display: flex;
-//   align-items: center;
-//   padding-top: 20px;
-//   padding-bottom: 20px;
-
-//   font-weight: 500;
-//   color: var(--secondary-text-color);
-
-//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
-// .auth-list-link:focus,
-// .auth-list-link:hover {
-//   color: var(--primery-accent-color);
-// }
-
-// .auth-list-link:hover .auth-list-icon,
-// .auth-list-link:focus .auth-list-icon {
-//   fill: var(--primery-accent-color);
-// }
 
 .auth-list {
   margin-left: auto;
