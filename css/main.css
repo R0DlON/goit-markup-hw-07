@@ -714,4 +714,169 @@ img {
 .сlients-list__link:focus svg {
   fill: #18a0fb;
 }
+
+/* Footer */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.container--footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.address-container {
+  margin-right: 70px;
+}
+
+.logo--footer {
+  margin-right: 0px;
+  color: #ffffff;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.address-list__item {
+  margin-bottom: 9px;
+  font-style: normal;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.address-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.address-list__link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-list__link:focus, .address-list__link:hover {
+  color: #18a0fb;
+}
+
+.icon-container {
+  margin-right: 93px;
+}
+
+.icon-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.icon-list__item--footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-list__link--footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-list__link--footer > svg {
+  fill: #ffffff;
+}
+
+.mailing-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mailing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mailing-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.mailing-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mailing-list-input {
+  margin-right: 12px;
+  width: 360px;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background: #2f303a;
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mailing-list-input:focus {
+  border-color: #18a0fb;
+}
+
+.mailing-list-item button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #ffffff;
+  background: #18a0fb;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mailing-button-title {
+  font-weight: bold;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+.mailing-list-item svg {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
