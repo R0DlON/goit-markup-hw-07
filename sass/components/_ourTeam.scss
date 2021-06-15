@@ -1,0 +1,87 @@
+/* Our Team */
+.section--team {
+  background-color: #f5f4fa;
+}
+
+.our-team {
+  display: flex;
+}
+.our-team-item {
+  background-color: #ffffff;
+  box-shadow: $box-shadow;
+  border-radius: 0px 0px 4px 4px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-box-list {
+  display: flex;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+}
+
+.team-box-list-link {
+  display: flex;
+
+  padding: 12px;
+
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: background-color $patternTime $patternCubicBuzier;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    border-radius: 50%;
+
+    background-color: $accent-color;
+  }
+}
+
+.svg {
+  .team-box-list-link > & {
+    width: 20px;
+    height: 20px;
+
+    fill: $primary-icon-color;
+    transition: fill $patternTime $patternCubicBuzier;
+  }
+  .team-box-list-link:hover &,
+  .team-box-list-link:focus & {
+    fill: var(--third-icon-color);
+  }
+}
+
+.team-box-list-link:hover svg,
+.team-box-list-link:focus svg {
+  fill: var(--third-icon-color);
+}
+
+.button.our-team {
+  border-radius: 50%;
+}
+
+.button.our-team > .button-icon {
+  border-radius: 50%;
+}
+.our-team-title {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.our-team-text {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  color: var(--secondary-text-color);
+  text-align: center;
+}

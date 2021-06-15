@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .wwd-title {
   margin-bottom: 50px;
 }
@@ -16,21 +15,16 @@
   display: flex;
 }
 
-.wwd-list:not(:last-child) {
-  margin-right: 30px;
-}
-
-.wwd-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.wwd-list-item {
+.wwd-list__item {
   position: relative;
 }
 
-.text-s {
+.wwd-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.wwd-list__text {
   position: absolute;
-  /* Или через падинги left+right:auto */
   width: 100%;
   bottom: 0%;
   display: -webkit-box;
@@ -43,7 +37,7 @@
           justify-content: center;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--white-text-color);
+  color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
 }
 /*# sourceMappingURL=whatWeDo.css.map */

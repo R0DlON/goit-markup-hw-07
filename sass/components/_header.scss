@@ -290,7 +290,7 @@
 }
 
 .auth-list__icon {
-  fill: $first-icon-color;
+  fill: $primary-icon-color;
 
   transition: fill $patternTime $patternCubicBuzier;
   .auth-list__link:hover &,

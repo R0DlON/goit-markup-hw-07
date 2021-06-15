@@ -46,7 +46,7 @@
   background-color: $primary-background-color;
   border-radius: 50%;
   cursor: pointer;
-  border-color: $first-icon-color;
+  border-color: $primary-icon-color;
   transition: border-color $patternTime $patternCubicBuzier;
   &:hover,
   &:focus {

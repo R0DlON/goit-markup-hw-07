@@ -57,22 +57,18 @@
 
 .wwd-list {
   display: flex;
+}
+
+.wwd-list__item {
+  position: relative;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
-.wwd-list-item:not(:last-child) {
-  margin-right: 30px;
-}
 
-.wwd-list-item {
-  position: relative;
-}
-
-.text-s {
+.wwd-list__text {
   position: absolute;
 
-  /* Или через падинги left+right:auto */
   width: 100%;
   bottom: 0%;
   display: flex;
@@ -82,7 +78,7 @@
 
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--white-text-color);
+  color: #ffffff;
 
   background: rgba(47, 48, 58, 0.8);
 }
