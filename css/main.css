@@ -611,54 +611,6 @@ img {
   padding-bottom: 30px;
 }
 
-.team-box__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.team-box__list:not(:last-child) {
-  margin-right: 5px;
-}
-
-.team-box-list-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 12px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-}
-
-.team-box-list-link:hover, .team-box-list-link:focus {
-  border-radius: 50%;
-  background-color: #18a0fb;
-}
-
-.team-box-list-link > .svg {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-box-list-link:hover .svg,
-.team-box-list-link:focus .svg {
-  fill: var(--third-icon-color);
-}
-
-.team-box-list-link:hover svg,
-.team-box-list-link:focus svg {
-  fill: var(--third-icon-color);
-}
-
 .team-box__title {
   margin-bottom: 10px;
   font-weight: 500;
@@ -671,5 +623,48 @@ img {
   font-size: 16px;
   color: var(--secondary-text-color);
   text-align: center;
+}
+
+.icon-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-list__item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.icon-list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.icon-list__link:hover, .icon-list__link:focus {
+  border-radius: 50%;
+  background-color: #18a0fb;
+}
+
+.icon-list__link > svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-list__link:hover svg,
+.icon-list__link:focus svg {
+  fill: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
