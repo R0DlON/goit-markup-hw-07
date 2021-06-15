@@ -3,10 +3,10 @@
   background-color: #f5f4fa;
 }
 
-.our-team {
+.team-list {
   display: flex;
 }
-.our-team-item {
+.team-list__item {
   background-color: #ffffff;
   box-shadow: $box-shadow;
   border-radius: 0px 0px 4px 4px;
@@ -20,7 +20,7 @@
   padding-bottom: 30px;
 }
 
-.team-box-list {
+.team-box__list {
   display: flex;
   justify-content: center;
   &:not(:last-child) {
@@ -64,21 +64,14 @@
   fill: var(--third-icon-color);
 }
 
-.button.our-team {
-  border-radius: 50%;
-}
-
-.button.our-team > .button-icon {
-  border-radius: 50%;
-}
-.our-team-title {
+.team-box__title {
   margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
   text-align: center;
 }
-.our-team-text {
+.team-box__text {
   margin-bottom: 16px;
 
   font-size: 16px;
