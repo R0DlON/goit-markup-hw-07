@@ -68,7 +68,7 @@
     <!-- Main  part -->
     <main>
       <!--Шапка/Герой-->
-      <section class="hero">
+      <section class="section section--hero">
         <div class="container">
           <h1 class="hero-title">
             Эффективные решения <br />для вашего бизнеса
@@ -76,9 +76,9 @@
           <button type="button" class="hero-button" data-modal-open>
             Заказать услугу
           </button>
-          <div class="backdrop is-hidden" data-modal>
+          <div class="backdrop backdrop--is-hidden" data-modal>
             <div class="modal">
-              <button type="button" class="button-icon close" data-modal-close>
+              <button type="button" class="button-icon--close" data-modal-close>
                 <svg class="icon-close">
                   <use href="./Images/sprite.svg#close"></use>
                 </svg>
@@ -88,53 +88,52 @@
 
               <!-- NEW SCHOOL -->
               <form class="js-speaker-form">
-                <p class="form-field-title">
+                <p class="form-field__title">
                   Оставьте свои данные, мы вам перезвоним
                 </p>
 
                 <label class="form-field">
-                  <span class="form-field-text">Имя</span>
-                  <input name="name" type="text" class="form-field-input" />
+                  <span class="form-field__text">Имя</span>
+                  <input name="name" type="text" class="form-field__input" />
                   <svg>
                     <use href="./Images/sprite.svg#person-modal"></use>
                   </svg>
                 </label>
 
                 <label class="form-field">
-                  <span class="form-field-text">Телефон</span>
-                  <input name="tel" type="tel" class="form-field-input" />
+                  <span class="form-field__text">Телефон</span>
+                  <input name="tel" type="tel" class="form-field__input" />
                   <svg>
                     <use href="./Images/sprite.svg#phone-modal"></use>
                   </svg>
                 </label>
 
                 <label class="form-field">
-                  <span class="form-field-text">Почта</span>
-                  <input name="email" type="email" class="form-field-input" />
+                  <span class="form-field__text">Почта</span>
+                  <input name="email" type="email" class="form-field__input" />
                   <svg>
                     <use href="./Images/sprite.svg#mail-modal"></use>
                   </svg>
                 </label>
 
                 <label class="form-field">
-                  <span class="form-field-text">Комментрий</span>
+                  <span class="form-field__text">Комментрий</span>
                   <textarea
                     name="comment"
-                    class="form-field-textarea"
+                    class="form-field__textarea"
                   ></textarea>
                 </label>
 
                 <label class="form-sign">
                   <input type="checkbox" class="checkbox" />
-                  <span class="form-sign-icon" name="checkbox"></span>
-
-                  <label for="checkbox" class="form-sign-text"
+                  <span class="form-sign__icon"> </span>
+                  <label class="form-sign__text"
                     >Соглашаюсь с рассылкой и принимаю
                     <a href="">Условия договора</a>
                   </label>
                 </label>
 
-                <button type="submit" class="form-field-button">
+                <button type="submit" class="form-field__button">
                   Отправить
                 </button>
               </form>

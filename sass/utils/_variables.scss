@@ -5,6 +5,7 @@
 //     --footer-text-color: rgba(255, 255, 255, 0.6);
 //     --accent-color: #18a0fb;
 //     --primary-white-color: #ffffff;
+//   + --primary-background-color: #ffffff;
 //     --secondary-background-color: #2f303a;
 //     --third-background-color: #f5f4fa;
 //     --fourth-background-color: #c4c4c4;
@@ -12,6 +13,8 @@
 //     --second-icon-color: #212121;
 //     --third-icon-color: #ffffff;
 //     --fourth-icon-color: #757575;
+//   + --background-opacity-color: rgba(0, 0, 0, 0.2);
+//   + --box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 //   }
 $primary-text-color:#212121;
 $secondary-text-color: #757575;
@@ -26,6 +29,10 @@ $first-icon-color: #afb1b8;
 $second-icon-color: #212121;
 $third-icon-color: #ffffff;
 $fourth-icon-color: #757575;
+$background-opacity-color: rgba(0, 0, 0, 0.2);
+$primary-background-color: #ffffff;
+$box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
 
 $patternWidthPage: 1200px;
 $patternSectionPadding: 94px; 
