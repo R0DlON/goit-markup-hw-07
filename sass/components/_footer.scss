@@ -268,7 +268,7 @@ svg {
   display: flex;
 }
 
-.mailing {
+.mailing-form {
   display: flex;
 
   flex-direction: column;
@@ -286,7 +286,7 @@ svg {
   align-items: center;
 }
 
-.mailing-list-input {
+.mailing-list__input {
   margin-right: 12px;
 
   width: 360px;
@@ -301,13 +301,12 @@ svg {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background: #2f303a;
   transition: border-color $patternTime $patternCubicBuzier;
+  &:focus {
+    border-color: $accent-color;
+  }
 }
 
-.mailing-list-input:focus {
-  border-color: $accent-color;
-}
-
-.mailing-list-item button {
+.mailing-list__button {
   display: flex;
 
   padding: 10px 30px;
@@ -327,17 +326,19 @@ svg {
   cursor: pointer;
 }
 
-.mailing-button-title {
+.mailing-list__title {
   font-weight: bold;
   line-height: 1.9;
   letter-spacing: 0.06em;
 }
 
-.mailing-list-item svg {
-  margin-left: 10px;
+svg {
+  .mailing-list__item & {
+    margin-left: 10px;
 
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 
-  fill: #ffffff;
+    fill: #ffffff;
+  }
 }

@@ -10,42 +10,44 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Верхняя линия-->
     <header class="header">
-      <div class="container flex-container">
-        <a href="" class="header-logo link"
-          ><span class="header-list-logo-part">Web</span>Studio</a
+      <div class="container container--flex-container">
+        <a href="" class="logo link"
+          ><span class="logo logo--part">Web</span>Studio</a
         >
-        <nav class="nav">
+        <nav class="navigation-block">
           <ul class="nav-list">
-            <li class="nav-list-item">
-              <a href="./index.html" class="nav-list-link link">Студия</a>
+            <li class="nav-list__item">
+              <a href="./index.html" class="nav-list__link link">Студия</a>
             </li>
-            <li class="nav-list-item">
-              <a href="./portfolio.html" class="nav-list-link current link"
+            <li class="nav-list__item">
+              <a
+                href="./portfolio.html"
+                class="nav-list__link nav-list__link--current"
                 >Портфолио</a
               >
             </li>
-            <li class="nav-list-item">
-              <a href="" class="nav-list-link link">Контакты</a>
+            <li class="nav-list__item">
+              <a href="" class="nav-list__link link">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="auth-list">
-          <li class="auth-list-item">
-            <a href="mailto:info@devstudio.com" class="auth-list-link link">
-              <svg class="auth-list-icon mail">
+          <li class="auth-list__item">
+            <a href="mailto:info@devstudio.com" class="auth-list__link link">
+              <svg class="auth-list__icon auth-list__icon--mail">
                 <use href="./Images/sprite.svg#mail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="auth-list-item">
-            <a href="tel:380961111111" class="auth-list-link link">
-              <svg class="auth-list-icon phone">
+          <li class="auth-list__item">
+            <a href="tel:380961111111" class="auth-list__link link">
+              <svg class="auth-list__icon auth-list__icon--phone">
                 <use href="./Images/sprite.svg#phone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -282,23 +284,27 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <div class="container footer-c">
+      <div class="container container--footer">
         <div class="address-container">
-          <a href="" class="footer-logo"
-            ><span class="footer-logo-part">Web</span>Studio
+          <a href="" class="logo logo--footer"
+            ><span class="logo logo--part">Web</span>Studio
           </a>
           <address class="address">
             <ul class="address-list">
-              <li class="address-list-item">
-                <p class="address-list-text">г. Киев, пр-т Леси Украинки, 26</p>
+              <li class="address-list__item">
+                <p class="address-list__text">
+                  г. Киев, пр-т Леси Украинки, 26
+                </p>
               </li>
-              <li class="address-list-item">
-                <a href="mailto:info@example.com" class="address-list-link link"
+              <li class="address-list__item">
+                <a
+                  href="mailto:info@example.com"
+                  class="address-list__link link"
                   >info@example.com</a
                 >
               </li>
-              <li class="address-list-item">
-                <a href="tel:380991111111" class="address-list-link link"
+              <li class="address-list__item">
+                <a href="tel:380991111111" class="address-list__link link"
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -306,31 +312,31 @@
           </address>
         </div>
         <div class="icon-container">
-          <h3 class="icon-list-title">Присоединяйтесь</h3>
-          <ul class="icon-list footer-i">
-            <li class="footer-i-icon-list-item">
-              <a class="footer-i-icon-list-link" href=""
+          <h3 class="icon-title">Присоединяйтесь</h3>
+          <ul class="icon-list">
+            <li class="icon-list__item icon-list__item--footer">
+              <a class="icon-list__link icon-list__link--footer" href=""
                 ><svg>
                   <use href="./Images/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-i-icon-list-item">
-              <a class="footer-i-icon-list-link" href="">
+            <li class="icon-list__item icon-list__item--footer">
+              <a class="icon-list__link icon-list__link--footer" href="">
                 <svg>
                   <use href="./Images/sprite.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-i-icon-list-item">
-              <a class="footer-i-icon-list-link" href="">
+            <li class="icon-list__item icon-list__item--footer">
+              <a class="icon-list__link icon-list__link--footer" href="">
                 <svg>
                   <use href="./Images/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-i-icon-list-item">
-              <a class="footer-i-icon-list-link" href=""
+            <li class="icon-list__item icon-list__item--footer">
+              <a class="icon-list__link icon-list__link--footer" href=""
                 ><svg>
                   <use href="./Images/sprite.svg#in"></use>
                 </svg>
@@ -339,19 +345,19 @@
           </ul>
         </div>
         <div class="mailing-container">
-          <form class="mailing">
+          <form class="mailing-form">
             <p class="mailing-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
             <ul class="mailing-list">
-              <li class="mailing-list-item">
+              <li class="mailing-list__item">
                 <input
                   type="email"
-                  class="mailing-list-input"
+                  class="mailing-list__input"
                   placeholder="E-mail"
                 />
               </li>
-              <li class="mailing-list-item">
-                <button type="submit">
-                  <span class="mailing-button-title">Подписаться</span>
+              <li class="mailing-list__item">
+                <button class="mailing-list__button" type="submit">
+                  <span class="mailing-list__title">Подписаться</span>
                   <svg>
                     <use href="./Images/sprite.svg#telegram"></use>
                   </svg>
