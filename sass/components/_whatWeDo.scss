@@ -1,28 +1,17 @@
 //  /* What we do */
 
-.wwd-title {
-  margin-bottom: 50px;
-}
-.section-title {
-  margin-bottom: 50px;
-
-  font-weight: bold;
-  font-size: 36px;
-  text-align: center;
-}
-
-.wwd-list {
+.our-work {
   display: flex;
 }
 
-.wwd-list__item {
+.our-work__item {
   position: relative;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.wwd-list__text {
+.our-work__text {
   position: absolute;
 
   width: 100%;

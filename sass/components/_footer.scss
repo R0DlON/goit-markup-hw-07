@@ -5,16 +5,12 @@
 
   background-color: #2f303a;
 }
-.container--footer {
-  display: flex;
-  align-items: baseline;
-}
 // Address
 .address-container {
   margin-right: 70px;
 }
 
-.logo--footer {
+.logo--whiteColor {
   margin-right: 0px;
 
   color: #ffffff;
@@ -24,7 +20,7 @@
   margin-top: 20px;
 }
 
-.address-list__item {
+.address__item {
   margin-bottom: 9px;
 
   font-style: normal;
@@ -36,7 +32,7 @@
   }
 }
 
-.address-list__link {
+.address__link {
   font-style: normal;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
@@ -50,26 +46,26 @@
 }
 
 // Icon-Container
-.icon-container {
+.social-container {
   margin-right: 93px;
 }
 
-.icon-title {
+.social-title {
   margin-bottom: 20px;
 
   color: #ffffff;
 }
 
-.icon-list__item--footer:not(:last-child) {
+.social-list__item--spaceBetween:not(:last-child) {
   margin-right: 10px;
 }
 
-.icon-list__link--footer {
+.social-list__link--opacityBackground {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 svg {
-  .icon-list__link--footer > & {
+  .social-list__link--opacityBackground > & {
     fill: #ffffff;
   }
 }
@@ -86,19 +82,19 @@ svg {
   flex-direction: column;
 }
 
-.mailing-title {
+.mailing-form__title {
   margin-bottom: 20px;
 
   font-weight: bold;
   color: #ffffff;
 }
 
-.mailing-list {
+.mailing-form__list {
   display: flex;
   align-items: center;
 }
 
-.mailing-list__input {
+.mailing-form__input {
   margin-right: 12px;
 
   width: 360px;
@@ -118,7 +114,7 @@ svg {
   }
 }
 
-.mailing-list__button {
+.mailing-form__button {
   display: flex;
 
   padding: 10px 30px;
@@ -138,14 +134,15 @@ svg {
   cursor: pointer;
 }
 
-.mailing-list__title {
-  font-weight: bold;
+.mailing-form__title--buttonTitle {
+  margin-bottom: 0px;
+
   line-height: 1.9;
   letter-spacing: 0.06em;
 }
 
 svg {
-  .mailing-list__item & {
+  .mailing-form__item & {
     margin-left: 10px;
 
     width: 24px;

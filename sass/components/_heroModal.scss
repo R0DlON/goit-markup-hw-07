@@ -34,7 +34,7 @@
   border-radius: 4px;
 }
 
-.button-icon--close {
+.modal__button--close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -44,9 +44,9 @@
   padding: 0%;
 
   background-color: $primary-background-color;
+  border: 1px solid $primary-icon-color;
   border-radius: 50%;
   cursor: pointer;
-  border-color: $primary-icon-color;
   transition: border-color $patternTime $patternCubicBuzier;
   &:hover,
   &:focus {
@@ -54,25 +54,25 @@
   }
 }
 
-.icon-close {
+.modal__icon--close {
   width: 100%;
   height: 100%;
 
   fill: #212121;
   transition: fill 250ms $patternCubicBuzier;
-  .button-icon--close:hover &,
-  .button-icon--close:focus & {
+  .modal__button--close:hover &,
+  .modal__button--close:focus & {
     fill: $primery-accent-color;
   }
 }
 
-.js-speaker-form {
+.customer-form {
   display: flex;
   flex-direction: column;
   padding: 40px;
 }
 
-.form-field__title {
+.customer-form__title {
   margin-bottom: 12px;
 
   font-weight: bold;
@@ -82,7 +82,7 @@
   color: $primary-text-color;
 }
 
-.form-field__text {
+.customer-form__text {
   padding: 4px;
   font-size: 12px;
   letter-spacing: 0.01em;
@@ -90,7 +90,7 @@
   color: #757575;
 }
 
-.form-field {
+.customer-form__label {
   display: flex;
   position: relative;
   margin-bottom: 10px;
@@ -98,20 +98,20 @@
   flex-direction: column;
 }
 
-.form-field__input {
+.customer-form__input {
   height: 40px;
   padding-left: 42px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color $patternTime $patternCubicBuzier;
-  .form-field:focus-within & {
+  .customer-form__label:focus-within & {
     border-color: $primery-accent-color;
   }
 }
 
 svg {
-  .form-field & {
+  .customer-form__label & {
     position: absolute;
 
     top: 33px;
@@ -122,25 +122,26 @@ svg {
     transition: fill $patternTime $patternCubicBuzier;
   }
 
-  .form-field:focus-within & {
+  .customer-form__label:focus-within & {
     fill: $primery-accent-color;
   }
 }
 
-.form-field__textarea {
+.customer-form__textarea {
   height: 120px;
   padding: 12px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
+  resize: none;
   transition: border-color $patternTime $patternCubicBuzier;
-  .form-field:focus-within & {
+  .customer-form__label:focus-within & {
     border-color: $primery-accent-color;
   }
 }
 
-.form-sign {
+.customer-form__sign {
   display: flex;
   margin-bottom: 30px;
 
@@ -159,7 +160,7 @@ svg {
   overflow: hidden;
 }
 
-.form-sign__icon {
+.customer-form__icon {
   display: inline-block;
 
   width: 16px;
@@ -179,12 +180,16 @@ svg {
   }
 }
 
-.form-sign__text {
+.customer-form__text--gray {
   line-height: 1.7;
   color: #757575;
 }
 
-.form-field__button {
+.customer-form__link--underline {
+  text-decoration: underline;
+}
+
+.customer-form__button {
   margin-left: auto;
   margin-right: auto;
 

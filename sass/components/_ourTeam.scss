@@ -1,5 +1,5 @@
 /* Our Team */
-.section--team {
+.section--silverBackground {
   background-color: #f5f4fa;
 }
 
@@ -14,13 +14,13 @@
     margin-right: 30px;
   }
 }
-// Team-Box
-.team-box {
+// team-list
+.team-list__box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-box__title {
+.team-list__title {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -28,27 +28,32 @@
   text-align: center;
 }
 
-.team-box__text {
+.team-list__text {
   margin-bottom: 16px;
 
   font-size: 16px;
   color: #757575;
   text-align: center;
 }
-// Icon-Box
 
-.icon-list {
+.team-list__box--social {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+// Social-Box
+
+.social-list {
   display: flex;
   justify-content: center;
 }
 
-.icon-list__item {
+.social-list__item {
   &:not(:last-child) {
     margin-right: 5px;
   }
 }
 
-.icon-list__link {
+.social-list__link {
   display: flex;
 
   padding: 12px;
@@ -66,15 +71,15 @@
 }
 
 svg {
-  .icon-list__link > & {
+  .social-list__link > & {
     width: 20px;
     height: 20px;
 
     fill: $primary-icon-color;
     transition: fill $patternTime $patternCubicBuzier;
   }
-  .icon-list__link:hover &,
-  .icon-list__link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: #ffffff;
   }
 }

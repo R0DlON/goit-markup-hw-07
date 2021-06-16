@@ -1,25 +1,4 @@
 /* Шапка */
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  width: $patternWidthPage;
-}
-
-.container--flex-container {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-}
-
-.section {
-  padding-top: $patternSectionPadding;
-  padding-bottom: $patternSectionPadding;
-}
-
 .header {
   display: flex;
   height: 80px;
@@ -34,7 +13,7 @@
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 
   transition: color $patternTime $patternCubicBuzier;
   &:hover,
@@ -43,7 +22,7 @@
   }
 }
 
-.logo--part {
+.logo--blueColor {
   margin: 0px;
   color: $primery-accent-color;
 }
@@ -128,7 +107,7 @@
   }
 }
 
-.auth-list__icon--mail {
+.auth-list__icon--mailLocation {
   margin-right: 10px;
 
   width: 16px;
@@ -137,7 +116,7 @@
   transition: fill $patternTime $patternCubicBuzier;
 }
 
-.auth-list__icon--phone {
+.auth-list__icon--phoneLocation {
   margin-right: 10px;
 
   width: 10px;

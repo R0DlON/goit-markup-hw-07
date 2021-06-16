@@ -13,7 +13,7 @@
   }
 }
 
-.features-icon-container {
+.features-list__container {
   display: flex;
 
   margin-bottom: 30px;
@@ -27,12 +27,12 @@
   background-color: #f5f4fa;
 }
 
-.icon-features1,
-.icon-features2 {
+.features-list__icon--features1,
+.features-list__icon--features2 {
   width: 65px;
   height: 70px;
 
-  fill: var(--second-icon-color);
+  fill: #212121;
   transition: fill $patternTime $patternCubicBuzier;
   cursor: pointer;
 
@@ -41,12 +41,12 @@
   }
 }
 
-.icon-features3,
-.icon-features4 {
+.features-list__icon--features3,
+.features-list__icon--features4 {
   width: 70px;
   height: 70px;
 
-  fill: var(--second-icon-color);
+  fill: #212121;
   transition: fill $patternTime $patternCubicBuzier;
   cursor: pointer;
 
